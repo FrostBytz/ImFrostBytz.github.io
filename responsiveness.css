@@ -1,0 +1,36 @@
+@media only screen and (max-width:820px){
+    .about_us_section .about_us_container{
+        flex-direction: column;
+    }
+    .about_us_section .about_us_container .col:nth-child(2){
+        padding: 20px;
+    }
+}
+@media only screen and (max-width:640px){
+    .why_choose_us_section .why_choose_us_container .content{
+        flex-direction: column;
+    }
+    .testimonial_section .testimonial_container{
+        flex-direction: column;
+    }
+    .testimonial_section .testimonial_container .col{
+        width: 100%;
+    }
+    .offer_section .offer_container{
+        flex-direction: column;
+    }
+    .contact_section .contact_container .content form .form_row{
+        flex-direction: column;
+    }
+    .contact_section .contact_container .content form .form_row .form_col{
+        flex: auto;
+        width: 100%;
+    }
+    footer .footer_container{
+        flex-direction: column;
+    }
+    footer .footer_container .col:nth-child(2){
+        border-left: none;
+        border-top: 2px solid var(--light-color);
+    }
+}
